@@ -1,0 +1,142 @@
+/* VISIT SECTION */
+.visit-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.visit-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.visit-card {
+    background: white;
+    padding: 25px;
+    width: 300px;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 8px;
+}
+.visit-card:hover{
+
+    transform: scale(1.1);
+}
+
+.visit-card h4 {
+    margin-bottom: 10px;
+    color: #1b4332;
+}
+
+/* BEST TIME */
+.best-time {
+    background-color: #f1f8f5;
+    padding: 40px;
+    text-align: center;
+}
+
+/* TRAVEL TIPS */
+.travel-tips {
+    padding: 40px;
+    text-align: center;
+}
+
+.travel-tips ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.travel-tips li {
+    margin: 10px 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #1b4332;
+    padding: 15px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    text-decoration: underline;
+}
+/* FOOTER WITH MAP */
+.footer {
+    background-color: #1b4332;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+    gap: 30px;
+}
+
+.footer-info h3 {
+    margin-bottom: 10px;
+}
+/* FOOTER INFO TEXT */
+.footer-info p {
+    margin-bottom: 8px;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* FOOTER MAP CONTAINER */
+.footer-map {
+    display: flex;
+    justify-content: center;   /* Center horizontally */
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* MAP STYLE */
+.footer-map iframe {
+    width: 80%;                /* Responsive width */
+    max-width: 500px;          /* Limit size */
+    height: 250px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+    text-align: center;
+    padding: 15px;
+    background-color: #14352a;
+    font-size: 14px;
+}
+
